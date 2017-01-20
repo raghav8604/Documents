@@ -1,4 +1,4 @@
---Who Is Active :P
+1. Who Is Active : To know statistics of query running on servers, it also tells you the execution plan and execution details of q query.
 
 EXEC sp_WhoIsActive
 	@get_full_inner_text = 0
