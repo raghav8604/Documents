@@ -1,11 +1,17 @@
-Hadoop
+************************************************************************
 
-HDFS(Hadoop Distributed File System) - Storage framework
-- NameNode(Master)
-- DataNode(Slaves)
+-------------------------------- Hadoop --------------------------------
 
+************************************************************************
 
-MapReduce - Processing framework
-- Job Tracker (Master)
-- Task Tracker (Slave)
+1.  History
+    https://en.wikipedia.org/wiki/Apache_Hadoop
+    
+    HDFS(Hadoop Distributed File System) - Storage framework
+    - NameNode(Master)
+    - DataNode(Slaves)
+    
+    MapReduce - Processing framework
+    - Job Tracker (Master)
+    - Task Tracker (Slave)
 
