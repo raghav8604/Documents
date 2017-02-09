@@ -1,0 +1,11 @@
+Hadoop
+
+HDFS(Hadoop Distributed File System) - Storage framework
+- NameNode(Master)
+- DataNode(Slaves)
+
+
+MapReduce - Processing framework
+- Job Tracker (Master)
+- Task Tracker (Slave)
+
