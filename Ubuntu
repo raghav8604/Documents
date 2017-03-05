@@ -1,4 +1,4 @@
-#Error 1:
+# 1:
 sudo: /etc/sudoers is owned by uid 1000, should be 0
 sudo: no valid sudoers sources found, quitting
 sudo: unable to initialize policy plugin
@@ -8,3 +8,12 @@ Solution
 pkexec chown root:root /etc/sudoers /etc/sudoers.d -R
 or
 pkexec visudo
+
+# 2: Add user to existing Group
+sudo usermod -a -G groupName userName
+
+# 3: List of Group / User
+List Group  : compgen -g
+List user   : compgen -u
+
+
