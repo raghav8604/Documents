@@ -16,4 +16,9 @@ sudo usermod -a -G groupName userName
 List Group  : compgen -g
 List user   : compgen -u
 
+#  4: list the members of a group?
+getent group groupname
+or
+getent group groupname | awk -F: '{print $4}'
+
 
