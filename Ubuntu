@@ -22,3 +22,11 @@ or
 getent group groupname | awk -F: '{print $4}'
 
 
+--If ~/.bashrc file not found
+--to check ls -la ~/ | more
+
+vi ~/.bashrc 
+PATH=$PATH:~/bin
+
+or
+cp from /etc/skel/.bashrc ~
